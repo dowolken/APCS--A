@@ -11,15 +11,9 @@ public class ClimbingClub {
 		String m=a.getName(); M
 		for(int i=1; i<climbList.size;i++) A w
 			{if(m.compareTo(climbList.get(i,i+1).getName())!=-1)
-		        max=limbList.get(i,i+1).getName();
+		        index=i-1;
+			    break;
 			}
 		climbList.add(index, a);
         
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}
